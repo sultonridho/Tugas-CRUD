@@ -1,0 +1,100 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff9f9;
+            margin: 0;
+            padding-bottom: 50px;
+        }
+        header h1 {
+            background-color: transparent;
+            color: #000000;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #b3b1b1;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        p {
+            text-align: left;
+            font-size: 18px;
+            color: #333;
+            margin: 8px 0;
+        }
+        .container-utama {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .btn-tambah {
+            background-color: #000000;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 25px;
+        }
+        article.hero {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(4, 270px);
+            gap: 20px;
+        }
+        .kartu {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: left;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 10px;   
+        }
+        .kartu button {
+            background-color: #000000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 8px 15px;
+            margin-top: 10px;
+        }
+        .kartu button a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .btn-kembali {
+            background-color: #000000;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none !important;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-bottom: 25px;
+            display: inline-block;
+        }
+       .aksi-container {
+            display: flex;
+            gap: 10px;
+        }
+        .btn-Home {
+            background-color: #000000;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none !important;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-bottom: 25px;
+            display: inline-block;
+        }
